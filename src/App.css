@@ -1,0 +1,91 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.background {
+  background-image: linear-gradient(to bottom, #455A64, #34495E);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #78866B; /* Earthy Green-Brown */
+  padding: 20px;
+  border-radius: 2000px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 27%;
+  margin: 0 auto;
+}
+
+.length-control {
+  margin-bottom: 20px;
+}
+
+.length-control label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.length-control button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: #6495ED; /* Soft Blue */
+  color: #333;
+  cursor: pointer;
+}
+
+.length-control button:hover {
+  background-color: #4682B4;
+}
+
+.length-control span {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.timer {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.timer span {
+  margin: 0 10px;
+}
+
+#start_stop {
+  width: 50px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #6495ED; /* Soft Blue */
+  color: #333;
+  cursor: pointer;
+  margin-right: 10px; /* Add a 10px margin to the right */
+}
+
+#start_stop:hover {
+  background-color: #4682B4;
+}
+
+#reset {
+  width: 50px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #6495ED; /* Soft Blue */
+  color: #333;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: #4682B4;
+}
+
+#beep {
+  display: none;
+}
